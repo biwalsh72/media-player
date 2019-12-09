@@ -2,13 +2,19 @@
   "name": "media-player",
   "version": "1.0.0",
   "description": "media player built with electron",
-  "main": "main.js",
+  "main": "public/main.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "author": "Will",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0"
+  },
   "devDependencies": {
     "electron": "^7.1.3"
   }
