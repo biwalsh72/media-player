@@ -1,0 +1,14 @@
+{
+  "name": "media-player",
+  "version": "1.0.0",
+  "description": "media player built with electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.3"
+  }
+}
